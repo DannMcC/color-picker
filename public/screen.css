@@ -6,3 +6,24 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+.color-creator {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-style: dashed;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.color-creator li {
+  list-style: none;
+}
+
+.color-box {
+  background-color: hsla(100, 50%, 50%, 1);
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
